@@ -9,8 +9,7 @@ st.set_page_config(page_title="RetailPulse Dashboard", layout="wide")
 st.title("📊 RetailPulse Dashboard")
 
 # Load data
-df = pd.read_csv("data/cleaned_retail_data.csv")
-
+df = pd.read_csv("RetailPulse/data/cleaned_retail_data.csv")
 # Sidebar
 st.sidebar.title("Navigation")
 
