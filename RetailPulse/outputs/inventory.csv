@@ -1,0 +1,5 @@
+Product,CurrentStock,ForecastDemand,ReorderQuantity,StockStatus,DaysLeft,RiskLevel
+A,120,180,80,Reorder Needed,20.0,Safe
+B,50,70,40,Reorder Needed,21.42857142857143,Safe
+C,200,160,0,Sufficient Stock,37.5,Safe
+D,40,90,70,Reorder Needed,13.333333333333332,Medium
