@@ -45,7 +45,7 @@ elif page == "Customer Segments":
     st.subheader("Customer Segments")
 
     try:
-        seg_df = pd.read_csv("outputs/customer_segments.csv")
+        seg_df = pd.read_csv("RetailPulse/outputs/customer_segments.csv")
 
         st.dataframe(seg_df.head())
 
@@ -58,7 +58,7 @@ elif page == "Churn Prediction":
     st.subheader("Churn Predictions")
 
     try:
-        churn_df = pd.read_csv("outputs/churn_predictions.csv")
+        churn_df = pd.read_csv("RetailPulse/outputs/churn_predictions.csv")
 
         st.dataframe(churn_df.head())
 
@@ -71,21 +71,19 @@ elif page == "Forecasting":
     st.subheader("Sales Forecasting")
 
     try:
-        forecast_df = pd.read_csv("outputs/forecast.csv")
+        forecast_df = pd.read_csv("RetailPulse/outputs/forecast.csv")
 
         st.dataframe(forecast_df)
 
     except:
         st.error("forecast.csv not found")
 
-
 elif page == "Inventory":
 
     st.subheader("Inventory Optimization")
 
     try:
-        inventory_df = pd.read_csv("outputs/inventory.csv")
-
+        inventory_df = pd.read_csv("RetailPulse/outputs/inventory.csv")
         st.dataframe(inventory_df)
 
     except:
