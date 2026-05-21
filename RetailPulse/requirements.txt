@@ -1,11 +1,10 @@
+streamlit
 pandas
-numpy
 matplotlib
+numpy
 seaborn
 scikit-learn
 xgboost
 prophet
 statsmodels
-streamlit
-plotly
 joblib
